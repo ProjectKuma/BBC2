@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+==========================
+Nav
+==========================
+*/
+nav{
+    background-color: black;
+    width: 100%;
+    height: 32px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Arial", "Verdana";
+    clear: both;
+}
+ul{
+    display: block;
+}
+li{
+    height: 32px;
+    float: left;
+    list-style: none;
+    display: block;
+    list-style-position: outside;
+}
+.leftNav, .rightNav{
+    width: 10%;
+    background-color: black;
+}
+a{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+    text-decoration: none;
+    color: white;
+    border-right: .5px solid gray;
+    display: block;
+    background-color: black;
+}
+.more{
+    padding-right: 40px;
+}
+.bbcLogo{
+    height: 32px;
+    padding-left: 50px;
+}
+.signIn{
+    height: 20px;
+    padding-right: 55px;
+    margin-top: 5px;
+}
+.rightForm{
+    border-right: none;
+}
+span{
+    padding-left: 5px;
+    position: absolute;
+    color: black;
+}
+form{
+    padding-left: 5px;
+    display: inline;
+}
+/*
+==========================
+Header Section
+==========================
+*/
+.headSection{
+    height: 50px;
+    clear: both;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 60px;
+
+}
+h2{
+    display: inline;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Arial", "Verdana";
+}
+.leftH2{
+    margin-right: 62%;
+}
+.rightH2{
+color: gray;
+}
+/*
+==========================
+Main
+==========================
+*/
+main{
+    display: block;
+    height: 340px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Arial", "Verdana";
+}
+.mainLeft{
+    height: 320px;
+    width: 45%;
+    border: 1px solid green;
+    float: left;
+    margin-right: 15px;
+    padding-left: 15px;
+}
+.mainRight{
+    height: 150px;
+    width: 22%;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    border: 1px solid brown;
+    float: left;
+}
+.mainH1{
+    margin-top: 45%;
+    padding-bottom: 5px;
+}
+.mainParagraph{
+    width: 85%;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.mainSpan{
+    display: block;
+    font-size: 12px;
+}
+.mainH2{
+    display: block;
+    margin-top: 37%;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.mainH2Sub{
+    display: block;
+    margin-top: 43%;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+/*
+==========================
+Sub Header Area
+==========================
+*/
+.subHeadSection{
+    height: 50px;
+    padding-left: 15%;
+    line-height: 60px;
+}
+.subHeaderH2{
+    display: inline;
+}
+/*
+==========================
+Sub Area
+==========================
+*/
+.sub{
+    display: block;
+    height: 340px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.subSection{
+    display: block;
+    height: 330px;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+.subImage{
+    height: 200px;
+    border: 1px solid blue;
+}
+.subH2{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.subParagraph{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.subSpan{
+    font-size: 12px;
+}
